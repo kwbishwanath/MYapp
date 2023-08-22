@@ -6,8 +6,14 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
-
+      home: Material(
+        child: Center(
+          child: Text(
+            "this is a text",
+            style: TextStyle(),
+          ),
+        ),
+      ),
     );
   }
 }
